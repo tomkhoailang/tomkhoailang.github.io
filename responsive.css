@@ -10,3 +10,8 @@
          font-size: 18px;
      }
 }
+@media only screen and (max-width: 992px) {
+    .toRow {
+        width: 100%;
+    }
+}
