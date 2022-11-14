@@ -1,58 +1,12 @@
 @media only screen and (max-width: 768px) {
-    .main_content {
-        display: block;
-    }
-    .left_content {
-        width: 100%;
-    }
-    .left_content .sub_container {
-        margin: 0 100px;
-    }
-    .right_content {
-        width: 100%;
-    }
-    .right_content .sub_container {
-        margin: 0 100px;
-    }
-    .center_content {
-        width: 100%;
-    }
-    .main_container {
-        margin: 0 70px;
-    }
-    .main_item {
-        width: 300px;
-    }
-    .main_item > img {
-        width: 300px;
-        height: 175px;
-    }
-    .rel_container {
-        display: block;
-    }
-    .rel_2_content > div {
-        width: 100%;
-    }
-    .rel_2_content > .title {
-        margin-left: -30px;
-    }
-    .rel_2_content {
-        display: block;
-    }
-    .main_2_container {
-        margin-left: 125px;
-    }
-    .footer_container {
-        display: block;
-        margin-left: 20px;
-    }
-    .footer_container > div {
-        width: 100%;
+    .card {
+        width: 100% !important;
+        margin-left: 0 !important;
     }
     .details_content {
-        margin: 0;
-    }
-    #form {
-        margin: 20px;
-    }
+        margin: 0 20px;
+     }
+     .details_content {
+         font-size: 18px;
+     }
 }

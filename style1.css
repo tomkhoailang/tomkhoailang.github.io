@@ -16,7 +16,7 @@
     width: 70%;
 }
 .forNav {
-    font-size: 21px;
+    font-size: 18px;
     margin: 0 3px;
 }
 .banner > img {
@@ -95,7 +95,7 @@
     font-weight: bold;
 }
 .details_content {
-    margin: 0 200px;
+   margin: 0 30px;
 }
 .details_content {
     font-size: 32px;
@@ -104,9 +104,7 @@
     text-align: center;
     font-size: 32px;
 }
-.details_image > img{
-    width: 100%;
-}
+
 a {
     font-weight: bold;
     color: black;
@@ -120,5 +118,17 @@ a {
 .toDown {
     padding: 10px;
     border-radius: 8px;
+}
+.contact {
+    transition: background-color,color .2s linear;
+}
+.contact:hover {
+    background-color: black;
+    color: white;
+}
+.image_details {
+    display: flex; 
+    align-items: center; 
+    flex-direction:column;
 }
 

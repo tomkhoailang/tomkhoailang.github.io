@@ -16,8 +16,8 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../style/img/logo2.png" width="75"
-                        height="50" alt=""></a>
+                <a class="navbar-brand" href="../index.html"><img src="../style/img/logo2.png" width="75" height="50"
+                        alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -64,58 +64,93 @@
         </div>
     </header>
     <div id="form">
-        <form action="" id="myForm">
-            Thông tin liên hệ
-            <br>
-            <input placeholder="Tên" class="validate">
-            <br>
-            <br>
-            <input placeholder="Email" class="validate">
-            <br><br>
-            <input placeholder="Subject" class="validate">
-            <br><br>
-            <input placeholder="Nội dung" class="validate">
-            <button>Gửi</button>
-        </form>
-    </div>
-    <div id="footer">
-        <div class="footer_container flex">
-            <div class="footer_left col-7">
-                Cơ quan của Bộ Lao động - Thương binh và Xã hội
-                <br>
-                Tổng biên tập: Phạm Tuấn Anh
-                <br>
-                Giấy phép hoạt động báo điện tử Dân trí số 298/GP - BTTTT Hà Nội, ngày 14-07-2020.
-                <br>
-                Địa chỉ tòa soạn: Nhà 48, ngõ 2 Giảng Võ, Cát Linh, Đống Đa, Hà Nội
-                <br>
-                Văn phòng đại diện miền Nam: 51 Võ Văn Tần, Phường Võ Thị Sáu, Quận 3, TP.HCM
-                <br>
-                Điện thoại: 024-3736-6491. Fax: 024-3736-6491
-                <br>
-                Hotline HN: 0973-567-567. Hotline TP HCM: 0974-567-567
-                <br>
-                Email: info@dantri.com.vn
-                <br>
-                Liên hệ quảng cáo: 0945.54.03.03
-                <br>
-                <br>
-                <a href="../otherpage/contact.html">
-                    <button class="contact">Liên hệ chúng tôi </button>
-                </a>
-            </div>
-            <div class="footer_right col-3">
-                <div>Đọc báo Dân trí trên mobile:</div>
-                <br>
-                <button class="toDown">App Store</button>
-                <br>
-                <br>
-                <button class="toDown">CH Play</button>
-                <br><br>
-                <div>Theo dõi Dân trí trên: Facebook Youtube Tiktok</div>
+        <div class="container mt-3">
+            <h2>Góp ý và chỉnh sửa</h2>
+            <form id="myForm">
+                <div class="mb-3 mt-3">
+                    <label for="email">Tên</label>
+                    <input class="form-control validate" id="email" placeholder="Vui lòng nhập tên " name="email">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control validate" id="email" placeholder="Email của bạn"
+                        name="email">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="email">Subject:</label>
+                    <select id="cars" name="cars">
+                        <option>Tin nóng</option>
+                        <option> Tiền tệ</option>
+                        <option> Biến động thế giới</option>
+                        <option> Thiên nhiên</option>
+                    </select>
+                </div>
 
+                <label for="comment">Messages:</label>
+                <textarea class="form-control validate" rows="5" id="comment" name="text"></textarea>
+                <div class="form-check mb-3">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="remember"> Nhận thông tin mới nhất của
+                        chúng tôi từ Email này
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Gửi</button>
+            </form>
+        </div>
+    </div>
+    <div id="footer" style="margin-bottom: 50px">
+
+
+
+        <div class="container-fluid">
+            <div class="row" style="margin-left: 8px;">
+                <div class="col-sm-8 ">
+                    Cơ quan của Bộ Lao động - Thương binh và Xã hội
+                    <br>
+                    Tổng biên tập: Phạm Tuấn Anh
+                    <br>
+                    Giấy phép hoạt động báo điện tử Dân trí số 298/GP - BTTTT Hà Nội, ngày 14-07-2020.
+                    <br>
+                    Địa chỉ tòa soạn: Nhà 48, ngõ 2 Giảng Võ, Cát Linh, Đống Đa, Hà Nội
+                    <br>
+                    Văn phòng đại diện miền Nam: 51 Võ Văn Tần, Phường Võ Thị Sáu, Quận 3, TP.HCM
+                    <br>
+                    Điện thoại: 024-3736-6491. Fax: 024-3736-6491
+                    <br>
+                    Hotline HN: 0973-567-567. Hotline TP HCM: 0974-567-567
+                    <br>
+                    Email: info@dantri.com.vn
+                    <br>
+                    Liên hệ quảng cáo: 0945.54.03.03
+                    <br>
+                    <br>
+                    <a href="./otherpage/contact.html">
+                        <button class="contact">Liên hệ chúng tôi </button>
+                    </a>
+                </div>
+                <div class="col-sm-4 ">
+                    <div>Đọc báo Dân trí trên mobile:</div>
+                    <br>
+                    <div class="btn-group-vertical">
+                        <button type="button" class="btn btn-primary">App Store</button>
+                        <button type="button" class="btn btn-primary">CH Play</button>
+
+                    </div>
+
+                    <br><br>
+                    <div>Theo dõi Dân trí trên:
+                        <div class="btn-group btn-group-lg">
+                            <button type="button" class="btn btn-primary">Facebook</button>
+                            <button type="button" class="btn btn-primary">Youtube</button>
+                            <button type="button" class="btn btn-primary">Tiktok</button>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
+
+
     </div>
     <script src="../style/js.js"></script>
 </body>

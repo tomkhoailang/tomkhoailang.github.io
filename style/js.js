@@ -15,8 +15,8 @@ form.onsubmit = function (e) {
         }
     }
     if(check === true) {
-        if((validate[1].value).includes('@gmail.com') == false ) {
-            alert("Email phải dưới dạng @gmail.com")
+        if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(validate[1].value) == false ) {
+            alert("Email sai cú pháp")
         }else {
             alert("Chúng tôi sẽ sớm liên lạc bạn qua thông tin vừa gửi")
         }
